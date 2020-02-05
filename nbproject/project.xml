@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.j2ee.ejbjarproject</type>
+    <configuration>
+        <buildExtensions xmlns="http://www.netbeans.org/ns/ant-build-extender/1">
+            <extension file="jaxws-build.xml" id="jaxws"/>
+        </buildExtensions>
+        <data xmlns="http://www.netbeans.org/ns/j2ee-ejbjarproject/3">
+            <name>dumTruckBoardServer</name>
+            <minimum-ant-version>1.6.5</minimum-ant-version>
+            <explicit-platform explicit-source-supported="true"/>
+            <included-library dirs="200">file.reference.oscache-2.1.jar</included-library>
+            <included-library dirs="200">file.reference.hibernate-jpa-2.0-api-1.0.1.Final.jar</included-library>
+            <included-library dirs="200">file.reference.hibernate-tools-3.6.0.CR1.jar</included-library>
+            <included-library dirs="200">file.reference.USAePayAPI-jaxws-1.6.4.jar</included-library>
+            <included-library dirs="200">file.reference.httpRestClient.jar</included-library>
+            <included-library dirs="200">file.reference.gcm-server-1.0.2.jar</included-library>
+            <included-library dirs="200">file.reference.json-simple-1.1.1.jar</included-library>
+            <included-library dirs="200">file.reference.log4j-api-2.5.jar</included-library>
+            <included-library dirs="200">file.reference.log4j-core-2.5.jar</included-library>
+            <included-library dirs="200">reference.LoadConfiguration.jar</included-library>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <references xmlns="http://www.netbeans.org/ns/ant-project-references/1">
+            <reference>
+                <foreign-project>LoadConfiguration</foreign-project>
+                <artifact-type>jar</artifact-type>
+                <script>build.xml</script>
+                <target>jar</target>
+                <clean-target>clean</clean-target>
+                <id>jar</id>
+            </reference>
+        </references>
+    </configuration>
+</project>

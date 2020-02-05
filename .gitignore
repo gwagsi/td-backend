@@ -1,0 +1,22 @@
+#backend gitignore file
+
+nbproject/private/
+nbproject/Makefile-*.mk
+nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+lib/
+.nb-gradle/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+nbactions.xml
+nb-configuration.xml
+
+local.properties
+

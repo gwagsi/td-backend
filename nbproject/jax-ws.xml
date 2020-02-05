@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="JobBookingManagementWs">
+      <implementation-class>jobBookingManagement.metier.JobBookingManagementWs</implementation-class>
+    </service>
+    <service name="UserNotificationParamsWs">
+      <implementation-class>notificationParam.metier.UserNotificationParamsWs</implementation-class>
+    </service>
+    <service name="TimeZoneWs">
+      <implementation-class>businessWebService.TimeZoneWs</implementation-class>
+    </service>
+    <service name="EmployeeManagementWs">
+      <implementation-class>employeeManagement.metier.EmployeeManagementWs</implementation-class>
+    </service>
+    <service name="TruckBookingManagementWs">
+      <implementation-class>truckBookingManagement.metier.TruckBookingManagementWs</implementation-class>
+    </service>
+    <service name="TruckTypeManagementWs">
+      <implementation-class>truckTypeManagement.metier.TruckTypeManagementWs</implementation-class>
+    </service>
+    <service name="BookingManagementWs">
+      <implementation-class>bookingManagement.metier.BookingManagementWs</implementation-class>
+    </service>
+    <service name="AvaibilityManagementWs">
+      <implementation-class>availabilityManagement.metier.AvaibilityManagementWs</implementation-class>
+    </service>
+    <service name="TruckDriverBindingWs">
+      <implementation-class>truckDriverBinding.metier.TruckDriverBindingWs</implementation-class>
+    </service>
+    <service name="DocumentManagementWs">
+      <implementation-class>documentManagement.metier.DocumentManagementWs</implementation-class>
+    </service>
+    <service name="TruckManagementWs">
+      <implementation-class>truckManagement.metier.TruckManagementWs</implementation-class>
+    </service>
+    <service name="AccountManagementWs">
+      <implementation-class>accountManagement.metier.AccountManagementWs</implementation-class>
+    </service>
+    <service name="BillingManagementWs">
+      <implementation-class>billingManagement.metier.BillingManagementWs</implementation-class>
+    </service>
+    <service name="AdminAccountManagementWs">
+      <implementation-class>admin.accountManagement.metier.AdminAccountManagementWs</implementation-class>
+    </service>
+    <service name="DriverManagementWs">
+      <implementation-class>driverManagement.metier.DriverManagementWs</implementation-class>
+    </service>
+    <service name="JobManagementWs">
+      <implementation-class>jobManagement.metier.JobManagementWs</implementation-class>
+    </service>
+    <service name="PushNotificationWs">
+      <implementation-class>pushNotificationParam.metier.PushNotificationWs</implementation-class>
+    </service>
+    <service name="AdminBillingManagementWs">
+      <implementation-class>admin.billingManagement.metier.AdminBillingManagementWs</implementation-class>
+    </service>
+    <service name="AdminJobManagementWs">
+      <implementation-class>admin.jobManagement.metier.AdminJobManagementWs</implementation-class>
+    </service>
+    <service name="DeveloperManagementWs">
+      <implementation-class>admin.developerManagement.metier.DeveloperManagementWs</implementation-class>
+    </service>
+    <service name="IssueManagementWs">
+      <implementation-class>admin.issueManagement.metier.IssueManagementWs</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>
